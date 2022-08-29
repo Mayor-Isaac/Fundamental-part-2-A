@@ -30,3 +30,22 @@ if((x ===100) || (y ===100) || (sum ===100)){
 }
 }
 isEqual(100,10)
+isEqual(100,0);
+isEqual(10,0);
+isEqual(0,10);
+isEqual(20,80);
+isEqual(50,50);
+
+
+
+// TASK 3
+function closeTo100(x,y){
+    if(x>y){
+        console.log(x)
+    }else{
+        console.log(y)
+    }
+}
+closeTo100(99,1)
+closeTo100(49,51)
+closeTo100(50,50)
